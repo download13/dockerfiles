@@ -1,8 +1,8 @@
 [Ghost](https://github.com/TryGhost/Ghost) as an Alpine-based Docker image.
 
-## Environment variables:
+### Environment variables:
 
-### BLOG_URL
+#### BLOG_URL
 
 Specifies the base URL on which the blog is hosted. Used to create full links for pages and posts.
 
@@ -12,6 +12,6 @@ Examples:
 2. http://blog.example.org
 3. https://example.org
 
-### PORT
+#### PORT
 
 Port on which to serve the blog from within the container. Defaults to 80.
