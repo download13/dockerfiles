@@ -9,4 +9,4 @@ RUN wget -O ghost.zip https://github.com/TryGhost/Ghost/releases/download/0.7.9/
 	&& npm cache clean \
 	&& rm -rf /tmp/npm*
 
-CMD ["npm", "start"]
+CMD ["npm", "start", "--production"]
